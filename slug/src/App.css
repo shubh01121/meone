@@ -1,0 +1,32 @@
+
+body{
+  background-image: url(https://th.bing.com/th/id/OIP.04OWuFdpBZJ5MladG8ADtAHaGD?pid=ImgDet&rs=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.App {
+  text-align: center;
+}
+
+.App-1{
+  display: flex;
+  flex-wrap: wrap;
+  
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.box{
+  border: 2px solid rgb(134, 93, 211);
+  margin-left: 20px;
+  border-radius: 10px;
+  width: fit-content;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(8, 8, 5);
+  background-color: antiquewhite;
+}
+p{
+  padding: 10px;
+}
